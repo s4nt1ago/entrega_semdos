@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Entrega Semana Dos</string>
+    <string name="form_name" translatable="false">Nombre Completo</string>
+    <string name="form_tel" translatable="false">Telefono</string>
+    <string name="form_email" translatable="false">Email</string>
+    <string name="form_desc" translatable="false">Descripcion Contacto</string>
+    <string name="btn_next" translatable="false">Siguiente</string>
+    <string name="detalle_label" translatable="false">Confirmar Datos</string>
+    <string name="btn_edit" translatable="false">Editar Datos</string>
+
+
+</resources>

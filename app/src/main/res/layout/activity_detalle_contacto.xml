@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleContacto">
+
+    <TextView
+        android:id="@+id/detalle_label"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="@string/detalle_label"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detalle_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/detealle_label">
+    </TextView>
+
+    <TextView
+        android:id="@+id/detalle_date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/detealle_name">
+    </TextView>
+    <TextView
+        android:id="@+id/detalle_tel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/detealle_date">
+    </TextView>
+    <TextView
+        android:id="@+id/detalle_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/detealle_tel">
+    </TextView>
+    <TextView
+        android:id="@+id/detalle_desc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/detealle_email">
+    </TextView>
+    <Button
+        android:id="@+id/btn_editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detealle_desc"
+        android:theme="@style/RaisedButton"
+        android:text="@string/btn_edit">
+
+    </Button>
+</LinearLayout>
